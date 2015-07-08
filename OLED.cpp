@@ -42,7 +42,7 @@ OLED::OLED()
 void OLED::clear(void) {
   unsigned char i,k;
   for(k=0;k<2;k++) {	
-    setCursor(k,0);    
+    setCursor(0,k);    
       for(i=0;i<128;i++) {//clear all COL
         sendChar(0);
       }
