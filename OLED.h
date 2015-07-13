@@ -15,7 +15,7 @@ public:
 	void begin(byte cols, byte rows);
 	void clear(void);
 	void setCursor(unsigned char row, unsigned char line);
-	void print(char *string);
+	void print(const char *string);
 	void print(int number);
 	void print(unsigned int number);
 	void print(long number);

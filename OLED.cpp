@@ -71,7 +71,7 @@ void OLED::sendCmd(unsigned char state) {
   Wire.endTransmission();    // stop transmitting
 }
 
-void OLED::print(char *string) {
+void OLED::print(const char *string) {
   char i=0;
   //OLED_setXY(0,0);    
   while(*string) {
