@@ -12,7 +12,7 @@ class OLED {
 public:
 	OLED();
 	void init(void);
-	void begin(byte cols, byte rows);
+	void begin();
 	void clear(void);
 	void setCursor(unsigned char row, unsigned char line);
 	void print(const char *string);
